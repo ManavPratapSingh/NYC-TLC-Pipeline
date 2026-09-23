@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nyc-tlc-pipeline"
+version = "0.1.0"
+description = "NYC TLC Taxi Data Processing Pipeline for FDE Data Foundations"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas",
+    "pyarrow",
+    "duckdb",
+    "pytest",
+    "matplotlib",
+    "seaborn",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

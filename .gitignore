@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+logs/
+data/taxi_zones/
+data/processed/*.parquet
