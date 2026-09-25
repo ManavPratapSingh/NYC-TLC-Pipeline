@@ -1,0 +1,143 @@
+{
+    "total_rows": 3530109,
+    "valid_rows": 3279747,
+    "invalid_rows": 250362,
+    "flag_counts": {
+        "_flag_date_out_of_range": 46,
+        "_flag_negative_duration": 42316,
+        "_flag_duration_too_short": 33038,
+        "_flag_duration_too_long": 37,
+        "_flag_invalid_pu_location": 0,
+        "_flag_invalid_do_location": 0,
+        "_flag_zero_distance": 128322,
+        "_flag_impossible_speed": 909,
+        "_flag_negative_fare": 14200,
+        "_flag_negative_total": 14699,
+        "_flag_fare_sum_mismatch": 1390885,
+        "_flag_invalid_vendor": 49526,
+        "_flag_invalid_ratecode": 53756
+    },
+    "null_profile": [
+        {
+            "column_name": "VendorID",
+            "null_count": 0,
+            "null_pct": 0.0
+        },
+        {
+            "column_name": "tpep_pickup_datetime",
+            "null_count": 0,
+            "null_pct": 0.0
+        },
+        {
+            "column_name": "tpep_dropoff_datetime",
+            "null_count": 0,
+            "null_pct": 0.0
+        },
+        {
+            "column_name": "passenger_count",
+            "null_count": 969727,
+            "null_pct": 27.47
+        },
+        {
+            "column_name": "trip_distance",
+            "null_count": 0,
+            "null_pct": 0.0
+        },
+        {
+            "column_name": "RatecodeID",
+            "null_count": 969727,
+            "null_pct": 27.47
+        },
+        {
+            "column_name": "store_and_fwd_flag",
+            "null_count": 969727,
+            "null_pct": 27.47
+        },
+        {
+            "column_name": "PULocationID",
+            "null_count": 0,
+            "null_pct": 0.0
+        },
+        {
+            "column_name": "DOLocationID",
+            "null_count": 0,
+            "null_pct": 0.0
+        },
+        {
+            "column_name": "payment_type",
+            "null_count": 0,
+            "null_pct": 0.0
+        },
+        {
+            "column_name": "fare_amount",
+            "null_count": 0,
+            "null_pct": 0.0
+        },
+        {
+            "column_name": "extra",
+            "null_count": 0,
+            "null_pct": 0.0
+        },
+        {
+            "column_name": "mta_tax",
+            "null_count": 0,
+            "null_pct": 0.0
+        },
+        {
+            "column_name": "tip_amount",
+            "null_count": 0,
+            "null_pct": 0.0
+        },
+        {
+            "column_name": "tolls_amount",
+            "null_count": 0,
+            "null_pct": 0.0
+        },
+        {
+            "column_name": "improvement_surcharge",
+            "null_count": 0,
+            "null_pct": 0.0
+        },
+        {
+            "column_name": "total_amount",
+            "null_count": 0,
+            "null_pct": 0.0
+        },
+        {
+            "column_name": "congestion_surcharge",
+            "null_count": 969727,
+            "null_pct": 27.47
+        },
+        {
+            "column_name": "Airport_fee",
+            "null_count": 969727,
+            "null_pct": 27.47
+        },
+        {
+            "column_name": "cbd_congestion_fee",
+            "null_count": 0,
+            "null_pct": 0.0
+        },
+        {
+            "column_name": "request_source",
+            "null_count": 2560692,
+            "null_pct": 72.54
+        }
+    ],
+    "yield_pct": 92.90781106192472,
+    "flag_breakdown": {
+        "_flag_date_out_of_range": 46,
+        "_flag_negative_duration": 42316,
+        "_flag_duration_too_short": 33038,
+        "_flag_duration_too_long": 37,
+        "_flag_invalid_pu_location": 0,
+        "_flag_invalid_do_location": 0,
+        "_flag_zero_distance": 128322,
+        "_flag_impossible_speed": 909,
+        "_flag_negative_fare": 14200,
+        "_flag_negative_total": 14699,
+        "_flag_fare_sum_mismatch": 1390885,
+        "_flag_invalid_vendor": 49526,
+        "_flag_invalid_ratecode": 53756
+    }
+}
